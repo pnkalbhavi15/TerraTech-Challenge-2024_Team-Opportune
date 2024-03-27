@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agricultural Analytics Dashboard</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f5f5f5;
+      }
+
+      header {
+        background-color: #2ecc71;
+        padding: 20px 0;
+        text-align: center;
+      }
+
+      h1 {
+        color: #fff;
+        margin: 0;
+        font-size: 28px;
+      }
+
+      nav {
+        text-align: center;
+        margin-top: 10px;
+      }
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-around;
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        overflow: hidden;
+      }
+
+      li {
+        flex: 1;
+      }
+
+      a {
+        text-decoration: none;
+        color: #2ecc71;
+        font-weight: bold;
+        font-size: 16px;
+        padding: 15px;
+        display: block;
+        transition: background-color 0.3s, color 0.3s;
+      }
+
+      a:hover {
+        background-color: #2ecc71;
+        color: #fff;
+      }
+
+      #content {
+        padding: 20px;
+      }
+
+      .page-link {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+        color: #2ecc71;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background-color 0.3s, color 0.3s;
+      }
+
+      .page-link:hover {
+        background-color: #2ecc71;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Agricultural Analytics Dashboard</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li>
+          <a href="{{ url_for('state_occurrences') }}">State Occurrences</a>
+        </li>
+        <li>
+          <a href="{{ url_for('crop_types_in_each_state_route') }}"
+            >Crop Types in Each State</a
+          >
+        </li>
+        <li>
+          <a href="{{ url_for('crop_frequencies_by_state_route') }}"
+            >Crop Frequencies by State</a
+          >
+        </li>
+        <li>
+          <a href="{{ url_for('production_by_pincode') }}"
+            >Production by Pincode</a
+          >
+        </li>
+        <li>
+          <a href="{{ url_for('lineplot_time_series_route') }}"
+            >Time-Series of Crop Production</a
+          >
+        </li>
+        <li>
+          <a href="{{ url_for('count_plots_categorical_route') }}"
+            >Count Plots for Categorical Columns</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <div id="content">
+      {% block content %}
+      <!-- Your content goes here -->
+      {% endblock %}
+    </div>
+
+    <a href="{{ url_for('home') }}" class="page-link">Back to Home</a>
+  </body>
+</html>

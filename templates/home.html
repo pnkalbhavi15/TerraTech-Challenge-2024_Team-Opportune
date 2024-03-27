@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crop Selection</title>
+    <style>
+      /* Reset CSS */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-image: url("static/bg10.jpg"); /* Background image URL */
+        background-size: cover;
+        background-position: center;
+        color: #333;
+        background-color: rgba(
+          255,
+          255,
+          255,
+          0.5
+        ); /* Semi-transparent white background */
+      }
+
+      /* Header styles */
+      header {
+        background-color: rgba(
+          0,
+          0,
+          0,
+          0.5
+        ); /* Semi-transparent black background for readability */
+        color: white;
+        padding: 10px 0 5px; /* Adjusted padding */
+        text-align: center;
+      }
+
+      nav {
+        background-color: rgba(
+          0,
+          0,
+          0,
+          0.5
+        ); /* Semi-transparent black background */
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        padding: 10px 0;
+      }
+
+      nav a {
+        color: white;
+        text-align: center;
+        padding: 12px 20px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+        border-radius: 5px;
+      }
+
+      nav a:hover {
+        background-color: rgba(
+          255,
+          255,
+          255,
+          0.3
+        ); /* Semi-transparent white on hover */
+        color: #333; /* Maintain text color on hover */
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: rgba(
+          0,
+          0,
+          0,
+          0.7
+        ); /* Semi-transparent black background */
+        min-width: 160px;
+        z-index: 1;
+        border-radius: 5px;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+      .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+
+      .dropdown-content a:hover {
+        background-color: rgba(
+          255,
+          255,
+          255,
+          0.3
+        ); /* Semi-transparent white on hover */
+        color: #333; /* Maintain text color on hover */
+      }
+
+      .content {
+        padding: 20px;
+        max-width: 800px;
+        margin: 20px auto;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      footer {
+        background-color: rgba(
+          0,
+          0,
+          0,
+          0.5
+        ); /* Semi-transparent black background */
+        color: white;
+        text-align: center;
+        padding: 5px 0;
+        position: sticky;
+        bottom: 0;
+        width: 100%;
+      }
+
+      /* Media Query for Responsive Design */
+      @media screen and (max-width: 768px) {
+        nav {
+          flex-direction: column;
+        }
+
+        nav a {
+          padding: 10px;
+        }
+
+        .content {
+          margin: 10px;
+          padding: 15px;
+        }
+      }
+      /* Reset CSS */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f4f4f4;
+      }
+
+      nav {
+        background-color: #333;
+        overflow: hidden;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      nav a {
+        color: #fff;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+        display: inline-block;
+        transition: color 0.3s, background-color 0.3s;
+      }
+
+      nav a:hover {
+        background-color: #555;
+      }
+
+      .content {
+        padding: 20px;
+        max-width: 800px;
+        margin: 20px auto;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      select,
+      button {
+        padding: 12px;
+        font-size: 16px;
+        border: 2px solid #007bff;
+        border-radius: 8px;
+        outline: none;
+        margin-right: 10px;
+        transition: all 0.3s ease;
+      }
+
+      select:hover,
+      button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      button {
+        background-color: #007bff;
+        color: #fff;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #0056b3;
+      }
+
+      /* Custom scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 4px;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Oppertune</h1>
+    </header>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/index">BC Info</a>
+      <a href="/literacy_chloropleth">Literacy Rate</a>
+      <div class="dropdown">
+        <a href="#" class="dropbtn">Crop</a>
+        <div class="dropdown-content">
+          <a href="/index1">Crop 1</a>
+          <a href="/index2">Crop 2</a>
+          <a href="/index3">Crop 3</a>
+        </div>
+      </div>
+      <a href="/index4">Literacy</a>
+      <a href="/index21">Gender</a>
+      <div class="dropdown">
+        <a href="#" class="dropbtn">Agriculture</a>
+        <div class="dropdown-content">
+          <a href="/index31">Fertilizer</a>
+          <a href="/index32">Pesticide</a>
+          <a href="/index33">Yield</a>
+        </div>
+      </div>
+      <a href="/bank">Bank</a>
+      <a href="/generate_population_heatmap">Population Density</a>
+      <a href="/all_chloropleth">All</a>
+      <a href="/index_market">Market Price Analysis</a>
+      <a href="/analysis1">Sector Wise Analysis</a>
+    </nav>
+    <div class="content">
+      <h1>Welcome!</h1>
+      <br />
+      <p>
+        A Business Correspondent (BC) is an individual or entity that acts as an
+        intermediary between a bank or financial institution and its customers,
+        particularly in rural or remote areas where traditional banking
+        infrastructure may not reach. BCs play a crucial role in extending
+        banking services to underserved and unbanked populations, promoting
+        financial inclusion.
+        <br />
+        <br />
+        Role:
+        <br />
+        -Extending Banking Services: BCs are appointed by banks to provide
+        banking services to customers in areas where setting up a
+        brick-and-mortar branch is not feasible or cost-effective.
+        <br />
+        -Point of Contact: They serve as a point of contact for customers to
+        access basic banking services such as deposits, withdrawals,
+        remittances, loan applications, insurance, and other financial products.
+        <br />
+        -Customer Identification: BCs also help in customer identification and
+        verification processes, which are essential for Know Your Customer (KYC)
+        compliance.
+        <br />
+        -Technology Use: They often use technology like mobile phones, handheld
+        devices, or other means to conduct transactions on behalf of the bank.
+      </p>
+    </div>
+    <footer>&copy; 2024 Crop Selection - All Rights Reserved</footer>
+  </body>
+</html>

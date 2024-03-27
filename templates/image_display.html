@@ -1,0 +1,45 @@
+{% extends 'index_market.html' %} {% block title %}State Occurrences -
+Agricultural Dashboard{% endblock %} {% block header %}State Occurrences{%
+endblock %} {% block content %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Display</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        padding: 0;
+        background-color: #f8f8f8;
+        text-align: center;
+      }
+
+      h1 {
+        color: #333;
+        margin-bottom: 20px;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      p {
+        color: #666;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>State Occurrences - Agricultural Dashboard</h1>
+
+    <img src="{{ img_path }}" alt="State Occurrences" />
+
+    <p>This is the State Occurrences page content.</p>
+  </body>
+</html>
+{% endblock %}

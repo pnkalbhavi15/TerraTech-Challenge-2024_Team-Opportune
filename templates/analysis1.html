@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cluster Maps</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      nav {
+        background-color: #333;
+        overflow: hidden;
+      }
+      nav a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+      }
+      nav a:hover {
+        background-color: #555;
+      }
+      .content {
+        padding: 20px;
+      }
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 10px;
+      }
+      button a {
+        color: white;
+        text-decoration: none;
+      }
+      button:hover {
+        background-color: #45a049;
+      }
+      h1 {
+        text-align: center;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="/">Home</a>
+      <div>
+        <a href="/index" class="active">BC Info</a>
+        <a href="/index1">Crop 1</a>
+        <a href="/index2">Crop 2</a>
+        <a href="/index3">Crop 3</a>
+        <a href="/index4">Literacy</a>
+      </div>
+      <div>
+        <a href="/index21">Gender</a>
+        <a href="/index31">Fertilizer</a>
+        <a href="/index32">Pesticide</a>
+        <a href="/index33">Yield</a>
+      </div>
+      <div>
+        <a href="/bank">Bank</a>
+        <a href="/generate_population_heatmap">Population Density</a>
+        <a href="/literacy_chloropleth">Literacy Rate</a>
+        <a href="/all_chloropleth">All</a>
+        <a href="/index_market">Market Price Analysis</a>
+        <a href="/analysis1">Sector Wise Analysis</a>
+      </div>
+    </nav>
+    <h1>Sectors</h1>
+    <div class="content">
+      <button><a href="/edu_analysis">Education</a></button>
+      <button><a href="/health">Healthcare</a></button>
+      <button><a href="#employment">Employment</a></button>
+      <button><a href="/agri_analysis">Agriculture</a></button>
+      <button><a href="/kernel">View More Analysis</a></button>
+    </div>
+  </body>
+</html>

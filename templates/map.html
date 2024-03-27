@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      nav {
+        background-color: #333;
+        overflow: hidden;
+      }
+      nav a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+      }
+      nav a:hover {
+        background-color: #555;
+      }
+      #map {
+        height: 500px;
+        margin: 20px auto;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .back-link {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+        text-decoration: none;
+        color: #007bff;
+      }
+      .back-link:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/index">BC Info</a>
+      <a href="/index1">Crop 1</a>
+      <a href="/index2">Crop 2</a>
+      <a href="/index3">Crop 3</a>
+      <a href="/index4">Literacy</a>
+      <a href="/index21">Gender</a>
+      <a href="/index31">Fertilizer</a>
+      <a href="/index32">Pesticide</a>
+      <a href="/index33">Yield</a>
+      <a href="/bank">Bank</a>
+      <a href="/generate_population_heatmap">Population Density</a>
+      <a href="/literacy_chloropleth">Literacy Rate</a>
+      <a href="/all_chloropleth">All</a>
+      <a href="/index_market">Market Price Analysis</a>
+      <a href="/analysis1">Sector Wise Analysis</a>
+    </nav>
+    <div id="map">{{ map_html | safe }}</div>
+    <button><a href="/" class="back-link">Back to Index</a></button>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  </body>
+</html>

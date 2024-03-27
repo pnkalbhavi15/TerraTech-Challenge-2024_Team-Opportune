@@ -1,0 +1,208 @@
+States,Crops,Yield (Kg./Hectare) - 2017-18,Yield (Kg./Hectare) - 2018-19,Yield (Kg./Hectare) - 2019-20,Yield (Kg./Hectare) - 2020-21,Yield (Kg./Hectare) - 2021-22
+Andhra Pradesh,Rice,3788,3729,3765,3393,3448
+Assam,Rice,2171,2153,2176,2209,2236
+Bihar,Rice,2447,1948,2182,2233,2299
+Chhattisgarh,Rice,1311,1810,1848,1889,2027
+Gujarat,Rice,2209,2279,2193,2367,2608
+Haryana,Rice,3181,3121,3334,3334,3605
+Himachal Pradesh,Rice,1603,1600,1980,2052,2052
+Jharkhand,Rice,2350,1895,2219,1951,2012
+Karnataka,Rice,3038,3012,3067,3072,3093
+Kerala,Rice,2757,2920,3056,3091,3471
+Madhya Pradesh,Rice,2026,1880,2370,2085,2276
+Maharashtra,Rice,1882,2236,1866,2109,2137
+Odisha,Rice,1739,2004,2122,2182,2311
+Punjab,Rice,4366,4132,4034,4366,4336
+Rajasthan,Rice,2365,2291,2189,2739,2436
+Tamil Nadu,Rice,3630,3562,3760,3379,3628
+Telangana,Rice,3192,3452,3694,3206,3292
+Uttar Pradesh,Rice,2283,2704,2705,2733,2679
+Uttarakhand,Rice,2566,2412,2665,2814,2739
+West Bengal,Rice,2926,2946,2892,2958,3022
+Others,Rice,2273,2155,2285,2371,2578
+All India,Rice,2576,2638,2722,2717,2802
+Assam,Wheat,1386,1398,1273,1379,1359
+Bihar,Wheat,2905,2998,2595,2767,2573
+Chhattisgarh,Wheat,1289,1548,1050,1551,1494
+Gujarat,Wheat,2898,3020,3268,3205,3235
+Haryana,Wheat,4412,4925,4687,4834,4298
+Himachal Pradesh,Wheat,1774,1770,1970,1712,1712
+Jharkhand,Wheat,2121,1847,2046,2337,2085
+Karnataka,Wheat,1193,1090,1198,1291,1291
+Madhya Pradesh,Wheat,2993,2993,2993,2989,3449
+Maharashtra,Wheat,1657,1497,1697,1839,1950
+Odisha,Wheat,2163,1815,1390,1640,1508
+Punjab,Wheat,5077,5188,5003,4868,4128
+Rajasthan,Wheat,3334,3501,3501,3676,3806
+Telangana,Wheat,1388,1877,1842,2640,2640
+Uttar Pradesh,Wheat,3269,3432,3432,3604,3626
+Uttarakhand,Wheat,2749,2910,2861,3062,2909
+West Bengal,Wheat,2667,3012,2708,3077,3000
+Others,Wheat,1799,2440,2171,2150,2394
+All India,Wheat,3368,3533,3440,3521,3484
+Andhra Pradesh,Jowar,2146,1475,2510,3428,3401
+Bihar,Jowar,1066,1066,1067,1067,1067
+Chhattisgarh,Jowar,1483,986,1403,1326,1279
+Gujarat,Jowar,1374,1278,1373,1398,1381
+Haryana,Jowar,519,528,528,525,527
+Jharkhand,Jowar,664,685,751,659,646
+Karnataka,Jowar,1048,945,1194,1205,1185
+Kerala,Jowar,799,817,825,883,939
+Madhya Pradesh,Jowar,2112,2189,1529,1938,1692
+Maharashtra,Jowar,720,535,789,840,1000
+Odisha,Jowar,632,634,633,631,629
+Rajasthan,Jowar,583,832,709,1054,864
+Tamil Nadu,Jowar,1117,1204,1156,1054,950
+Telangana,Jowar,1090,1202,1407,1711,2088
+Uttar Pradesh,Jowar,1270,1247,1349,1578,1578
+West Bengal,Jowar,450,469,528,538,537
+Others,Jowar,929,921,927,945,809
+All India,Jowar,956,849,989,1099,1131
+Andhra Pradesh,Bajra,1927,1031,2328,2281,1782
+Bihar,Bajra,1134,1134,1134,1134,1134
+Gujarat,Bajra,2430,2280,2098,2192,2227
+Haryana,Bajra,1602,2068,2068,2372,2318
+Himachal Pradesh,Bajra,734,730,1020,557,557
+Jharkhand,Bajra,576,578,711,643,583
+Karnataka,Bajra,1241,957,1140,1241,1159
+Madhya Pradesh,Bajra,2435,1921,2219,2256,2368
+Maharashtra,Bajra,849,545,761,955,906
+Odisha,Bajra,619,622,620,622,622
+Punjab,Bajra,598,651,635,640,650
+Rajasthan,Bajra,886,911,1093,1049,1001
+Tamil Nadu,Bajra,2277,2517,2743,2357,2512
+Telangana,Bajra,1057,497,1158,930,1158
+Uttar Pradesh,Bajra,1940,2029,2115,2221,2156
+West Bengal,Bajra,300,402,401,425,428
+Others,Bajra,789,674,829,847,738
+All India,Bajra,1231,1219,1374,1420,1414
+Andhra Pradesh,Maize,6912,5875,6701,5917,6326
+Assam,Maize,3132,3254,3495,3594,3461
+Bihar,Maize,3476,3708,2975,3211,5394
+Chhattisgarh,Maize,2380,2503,2691,2996,3017
+Gujarat,Maize,1661,1961,1815,1717,1950
+Haryana,Maize,3167,2644,2833,3026,3133
+Himachal Pradesh,Maize,2532,2530,2540,2727,2726
+Jharkhand,Maize,2025,1744,1989,2186,2181
+Karnataka,Maize,2948,2805,2990,3107,3250
+Kerala,Maize,2249,1385,1239,1074,2770
+Madhya Pradesh,Maize,2615,3261,2899,2763,2981
+Maharashtra,Maize,2868,1906,1740,2978,2627
+Odisha,Maize,2513,2324,2904,2909,2746
+Punjab,Maize,3708,3625,3581,3665,3821
+Rajasthan,Maize,2063,2240,1355,2285,2178
+Tamil Nadu,Maize,7986,7258,7424,6408,6338
+Telangana,Maize,4057,3837,5347,6782,5317
+Uttar Pradesh,Maize,2208,2082,2323,2352,2179
+Uttarakhand,Maize,1970,1866,1921,2074,2486
+West Bengal,Maize,4805,6556,6647,6752,7160
+Others,Maize,1829,2032,1933,1828,2009
+All India,Maize,3065,3070,3006,3199,3347
+Andhra Pradesh,Pulses,865,558,932,880,985
+Assam,Pulses,748,756,737,764,746
+Bihar,Pulses,954,946,731,839,840
+Chhattisgarh,Pulses,697,721,318,693,708
+Gujarat,Pulses,1016,1029,1172,1295,1548
+Haryana,Pulses,961,1141,924,830,823
+Himachal Pradesh,Pulses,2019,1938,1944,1768,1773
+Jharkhand,Pulses,1055,990,1030,1067,1037
+Karnataka,Pulses,645,528,693,661,630
+Kerala,Pulses,1027,925,966,959,1053
+Madhya Pradesh,Pulses,1084,916,864,1088,1050
+Maharashtra,Pulses,795,670,891,954,965
+Odisha,Pulses,556,574,579,554,531
+Punjab,Pulses,876,938,871,971,968
+Rajasthan,Pulses,639,636,709,692,609
+Tamil Nadu,Pulses,675,648,735,588,596
+Telangana,Pulses,899,861,1062,997,1042
+Uttar Pradesh,Pulses,973,1051,1033,1040,1086
+Uttarakhand,Pulses,874,922,963,973,1057
+West Bengal,Pulses,969,796,801,950,859
+Others,Pulses,956,968,1197,986,1083
+All India,Pulses,853,757,823,885,888
+Andhra Pradesh,Foodgrains,2934,2694,3022,2773,2890
+Assam,Foodgrains,2091,2078,2105,2145,2154
+Bihar,Foodgrains,2587,2402,2302,2419,2520
+Chhattisgarh,Foodgrains,1220,1617,1584,1712,1828
+Gujarat,Foodgrains,2051,2134,2169,2121,2239
+Haryana,Foodgrains,3632,3981,3891,3985,3759
+Himachal Pradesh,Foodgrains,2053,2049,2180,2112,2119
+Jharkhand,Foodgrains,1957,1623,1817,1733,1729
+Karnataka,Foodgrains,1542,1422,1658,1767,1680
+Kerala,Foodgrains,2736,2890,3025,3064,3452
+Madhya Pradesh,Foodgrains,1963,1970,2199,2188,2369
+Maharashtra,Foodgrains,1212,1071,1163,1390,1412
+Odisha,Foodgrains,1533,1766,1870,1913,1990
+Punjab,Foodgrains,4709,4658,4527,4606,4199
+Rajasthan,Foodgrains,1402,1437,1469,1561,1460
+Tamil Nadu,Foodgrains,3028,2972,3052,2834,2988
+Telangana,Foodgrains,2903,3035,3483,3075,3182
+Uttar Pradesh,Foodgrains,2594,2803,2816,2915,2886
+Uttarakhand,Foodgrains,2236,2247,2343,2474,2420
+West Bengal,Foodgrains,2839,2938,2904,3025,3105
+Others,Foodgrains,1988,2043,2080,2086,2281
+All India,Foodgrains,2235,2286,2343,2394,2406
+Andhra Pradesh,Oilseeds,1328,589,1194,854,681
+Assam,Oilseeds,638,642,619,646,636
+Bihar,Oilseeds,1208,1248,1099,1077,1043
+Chhattisgarh,Oilseeds,461,561,720,613,648
+Gujarat,Oilseeds,2125,1458,2320,1844,2043
+Haryana,Oilseeds,2008,2042,1783,2008,1938
+Himachal Pradesh,Oilseeds,590,590,619,719,719
+Jharkhand,Oilseeds,713,684,784,788,796
+Karnataka,Oilseeds,883,824,1025,1033,946
+Kerala,Oilseeds,900,697,734,409,683
+Madhya Pradesh,Oilseeds,1046,1247,864,772,1204
+Maharashtra,Oilseeds,1017,1096,1144,1422,1155
+Odisha,Oilseeds,625,662,725,927,908
+Punjab,Oilseeds,1482,1499,1472,1548,1582
+Rajasthan,Oilseeds,1477,1581,1248,1538,1485
+Tamil Nadu,Oilseeds,2729,2411,2626,2244,2301
+Telangana,Oilseeds,1791,1835,1886,1713,1842
+Uttar Pradesh,Oilseeds,1054,1079,908,1066,1083
+Uttarakhand,Oilseeds,916,938,965,970,918
+West Bengal,Oilseeds,1198,1255,1060,1189,1182
+Others,Oilseeds,947,1015,967,923,1012
+All India,Oilseeds,1284,1271,1224,1247,1339
+Andhra Pradesh,Sugarcane,78683,79359,78186,75248,77748
+Assam,Sugarcane,37402,35063,41010,35845,37257
+Bihar,Sugarcane,59138,89181,60649,54766,66249
+Chhattisgarh,Sugarcane,48070,44340,50000,55670,56960
+Gujarat,Sugarcane,66330,73182,71890,77327,78307
+Haryana,Sugarcane,84499,78243,80274,86179,81231
+Himachal Pradesh,Sugarcane,19600,19600,19971,15447,15447
+Karnataka,Sugarcane,84081,90000,89000,96000,96000
+Kerala,Sugarcane,109840,105050,127190,115810,129950
+Madhya Pradesh,Sugarcane,55408,48905,59470,57270,58000
+Maharashtra,Sugarcane,92000,77200,84280,92000,92000
+Odisha,Sugarcane,64704,61622,56423,54473,54399
+Punjab,Sugarcane,83580,81828,80242,83841,85339
+Rajasthan,Sugarcane,70364,83448,73038,79111,58215
+Tamil Nadu,Sugarcane,99814,103000,107615,104030,100000
+Telangana,Sugarcane,74413,79590,77418,79590,76401
+Uttar Pradesh,Sugarcane,79245,80807,81313,81807,81500
+Uttarakhand,Sugarcane,69682,69553,75410,80000,80000
+West Bengal,Sugarcane,75000,84485,79657,75427,80000
+Others,Sugarcane,56913,52122,52312,53265,55981
+All India,Sugarcane,80198,80105,80497,83566,84443
+Andhra Pradesh,Cotton,549,409,649,449,471
+Gujarat,Cotton,660,401,552,540,572
+Haryana,Cotton,416,483,584,419,352
+Karnataka,Cotton,573,331,485,481,490
+Madhya Pradesh,Cotton,457,645,430,387,431
+Maharashtra,Cotton,238,266,251,378,306
+Odisha,Cotton,478,493,579,547,502
+Punjab,Cotton,750,775,827,691,432
+Rajasthan,Cotton,551,548,624,675,558
+Tamil Nadu,Cotton,413,344,418,369,344
+Telangana,Cotton,466,356,546,418,546
+Others,Cotton,415,401,321,275,261
+All India,Cotton,443,378,455,451,445
+Andhra Pradesh,Jute & Mesta,1700,1820,1918,1880,1978
+Assam,Jute & Mesta,2114,2036,2165,2166,2117
+Bihar,Jute & Mesta,2211,2293,2325,2561,2368
+Chhattisgarh,Jute & Mesta,347,349,357,358,368
+Odisha,Jute & Mesta,1105,1560,938,1148,1680
+West Bengal,Jute & Mesta,2616,2644,2805,2635,2867
+Others,Jute & Mesta,1131,1553,1451,1540,1510
+All India,Jute & Mesta,2435,2508,2641,2542,2685

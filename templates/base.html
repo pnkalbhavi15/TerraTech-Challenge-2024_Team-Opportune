@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% block title %}Agricultural Startup{% endblock %}</title>
+    <style>
+      /* Reset CSS */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f7f7f7;
+      }
+
+      header {
+        background-color: #4caf50;
+        color: white;
+        padding: 1rem;
+        text-align: center;
+      }
+
+      nav {
+        background-color: #2e7d32;
+        padding: 0.5rem;
+        text-align: center;
+      }
+
+      nav a {
+        color: white;
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+        transition: background-color 0.3s;
+        margin: 0 10px;
+        border-radius: 4px;
+      }
+
+      nav a:hover {
+        background-color: #388e3c;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 1rem;
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+      }
+
+      h1 {
+        margin: 0;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      /* Responsive Image */
+      .agri-logo {
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px;
+      }
+
+      /* Form Styles */
+      .agri-login-form {
+        margin-top: 20px;
+        text-align: center;
+      }
+
+      .agri-login-button {
+        background-color: #4caf50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+
+      .agri-login-button:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Agricultural Analysis</h1>
+    </header>
+    <nav>
+      <a href="{{ url_for('market_price_analysis') }}">Market Price Analysis</a>
+    </nav>
+  </body>
+</html>

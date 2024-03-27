@@ -1,0 +1,77 @@
+{% extends 'index_market.html' %} {% block title %}State Occurrences -
+Agricultural Dashboard{% endblock %} {% block header %}State Occurrences{%
+endblock %} {% block content %}
+<!-- Your specific content for State Occurrences goes here -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Production by Pincode</title>
+    <style>
+      form {
+        margin-top: 20px;
+      }
+
+      label {
+        margin-right: 10px;
+      }
+
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-top: 20px;
+      }
+
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+      }
+
+      th {
+        background-color: #f2f2f2;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Production by Pincode</h1>
+
+    <form method="post" action="{{ url_for('production_by_pincode') }}">
+      <label for="state">Enter State:</label>
+      <input type="text" name="state" id="state" required />
+
+      <label for="crop">Enter Crop:</label>
+      <input type="text" name="crop" id="crop" required />
+
+      <input type="submit" value="Generate Plot" />
+    </form>
+
+    {% if img_path %}
+    <img src="{{ img_path }}" alt="Production by Pincode Pie Chart" />
+    {% endif %} {% if pincode_production %}
+    <table>
+      <thead>
+        <tr>
+          <th>Pincode</th>
+          <th>Total Production</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for pincode, production in pincode_production.items() %}
+        <tr>
+          <td>{{ pincode }}</td>
+          <td>{{ production }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% else %}
+    <p>state and crop combination.</p>
+    {% endif %}
+  </body>
+</html>
+<p>This is the State Occurrences page content.</p>
+{% endblock %}

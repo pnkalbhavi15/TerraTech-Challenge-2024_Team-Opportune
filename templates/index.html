@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BC Information Map</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" href="/static/style.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      nav {
+        background-color: #333;
+        overflow: hidden;
+      }
+      nav a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+      }
+      nav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      .content {
+        padding: 20px;
+      }
+      select {
+        padding: 8px;
+        font-size: 16px;
+      }
+      button {
+        padding: 8px 16px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      nav {
+        background-color: #333;
+        overflow: hidden;
+      }
+      nav a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+      }
+      nav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      .content {
+        padding: 20px;
+      }
+      select {
+        padding: 8px;
+        font-size: 16px;
+      }
+      button {
+        padding: 8px 16px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+    </style>
+    <!-- Include Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/index">BC Info</a>
+      <a href="/literacy_chloropleth">Literacy Rate</a>
+      <a href="/index1">Crop 1</a>
+      <a href="/index2">Crop 2</a>
+      <a href="/index3">Crop 3</a>
+      <a href="/index4">Literacy</a>
+      <a href="/index21">Gender</a>
+      <a href="/index31">Fertilizer</a>
+      <a href="/index32">Perstiside</a>
+      <a href="/index33">Yield</a>
+      <a href="/bank">bank</a>
+      <a href="/generate_population_heatmap">Population Density</a>
+      <a href="/all_chloropleth">All</a>
+      <a href="/index_market">Market Price Analysis</a>
+      <a href="/analysis1">Sector Wise Analysis</a>
+    </nav>
+    <h1>BC Information Map</h1>
+    <div id="map" style="height: 400px"></div>
+    <form id="pincodeForm" action="/search" method="POST">
+      <label for="pincode">Enter Pincode:</label>
+      <input type="text" id="pincode" name="pincode" required />
+      <button type="submit">Search</button>
+    </form>
+    <div id="bcInfo"></div>
+    <label for="genderFilter">Filter by Gender:</label>
+    <select id="genderFilter">
+      <option value="all">All</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <!-- Add other gender options if needed -->
+    </select>
+    <!-- <div>
+      <label for="cropSelect">Select Crop:</label>
+      <select id="cropSelect" onchange="toggleHeatmap()">
+        <option value="none">None</option>
+      </select>
+    </div> -->
+    <!-- <div id="cropData" style="display: none">{{ crop_data | safe }}</div> -->
+    <!-- <form id="literacyChloropleth" action="/literacy_chloropleth" method="GET">
+      <button type="submit">View Chloropleth of Literacy Rates</button>
+    </form> -->
+    <!-- <form id="allChloropleth" action="/all_chloropleth" method="GET">
+      <button type="submit">View Chloropleth of All Data</button>
+    </form> -->
+    <form id="home" action="/index" method="GET">
+      <button type="submit">Refresh</button>
+    </form>
+    <!-- <script>
+      // Function to populate Crop Selection Dropdown Dynamically
+      function populateCropDropdown() {
+        const cropDataDiv = document.getElementById("cropData");
+        const cropSelect = document.getElementById("cropSelect");
+        const cropData = JSON.parse(cropDataDiv.textContent);
+
+        // Clear previous options
+        cropSelect.innerHTML = "";
+
+        // Add "None" option
+        const noneOption = document.createElement("option");
+        noneOption.value = "none";
+        noneOption.text = "None";
+        cropSelect.appendChild(noneOption);
+
+        // Add options from crop data
+        cropData.forEach((crop) => {
+          const option = document.createElement("option");
+          option.value = crop;
+          option.text = crop;
+          cropSelect.appendChild(option);
+        });
+      }
+
+      // Call populateCropDropdown when the page loads
+      window.onload = populateCropDropdown;
+    </script> -->
+
+    <!-- Include Leaflet and Leaflet.heat JavaScript -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
+    <script src="/static/index.js"></script>
+  </body>
+</html>

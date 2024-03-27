@@ -1,0 +1,122 @@
+{% extends 'base.html' %} {% block title %}Agricultural Startups - Data
+Analysis{% endblock %} {% block header %}Welcome to Your Agricultural Data
+Analysis{% endblock %} {% block content %}
+<h1>Exploratory Data Analysis Results</h1>
+<br />
+
+<!-- Display the histograms -->
+<h2>Histogram of Minimum Price</h2>
+<p>
+  Usefulness: Helps in understanding the distribution of minimum prices for
+  various commodities.<br />
+  Efficient Use: Identify commodities with consistent or volatile minimum
+  prices, aiding startups in pricing strategies and risk management.
+</p>
+<img
+  src="{{ url_for('static', filename='plots/hist_min_price.png') }}"
+  alt="Histogram of Minimum Price"
+/>
+
+<h2>Box Plot of Maximum Price</h2>
+<p>
+  Usefulness: Provides a visual summary of the distribution of maximum
+  prices.<br />
+  Efficient Use: Identify outliers, understand price variability, and assess
+  potential price trends for strategic decision-making.
+</p>
+<img
+  src="{{ url_for('static', filename='plots/boxplot_max_price.png') }}"
+  alt="Box Plot of Maximum Price"
+/>
+
+<h2>Bar Plot of State Frequency</h2>
+<p>
+  Usefulness: Displays the frequency of data points for each state.<br />
+  Efficient Use: Identify states with high agricultural activity, potential
+  market opportunities, or regions requiring specific attention.
+</p>
+<img
+  src="{{ url_for('static', filename='plots/barplot_state_freq.png') }}"
+  alt="Bar Plot of State Frequency"
+/>
+
+<h2>Bar Chart for Commodity Frequency</h2>
+<p>
+  Usefulness: Highlights the frequency of different commodities in the
+  dataset.<br />
+  Efficient Use: Identify popular and frequently traded commodities, aiding
+  startups in focusing on high-demand products.
+</p>
+<img
+  src="{{ url_for('static', filename='plots/barchart_for_commodity_freq.png') }}"
+  alt="Bar Chart for Commodity Frequency"
+/>
+
+<h2>Histogram for Modal Price</h2>
+<p>
+  Usefulness: Shows the distribution of modal prices, a key indicator for
+  decision-making.<br />
+  Efficient Use: Identify modal price ranges, assess price stability, and
+  understand the overall market conditions.
+</p>
+<img
+  src="{{ url_for('static', filename='plots/histogram_for_modal_price.png') }}"
+  alt="Histogram for Modal Price"
+/>
+
+<h2>Box Plot for Minimum Price</h2>
+<p>
+  Usefulness: Visualizes the distribution and variability of minimum prices.<br />
+  Efficient Use: Assess price consistency, identify outliers, and make pricing
+  decisions accordingly.
+</p>
+<img
+  src="{{ url_for('static', filename='plots/boxplot_for_min_price.png') }}"
+  alt="Box Plot for Minimum Price"
+/>
+
+<h2>Bar Chart for Distinct Frequencies</h2>
+<p>
+  Usefulness: Displays the frequency of different districts in the dataset.<br />
+  Efficient Use: Identify districts with high agricultural activity or specific
+  market characteristics for targeted efforts.
+</p>
+<img
+  src="{{ url_for('static', filename='plots/barchart_for_distinct_freq.png') }}"
+  alt="Bar Chart for Distinct Frequencies"
+/>
+
+<h2>Bar Chart for Market Frequency</h2>
+<p>
+  Usefulness: Highlights the frequency of different markets in the dataset.<br />
+  Efficient Use: Identify key markets, assess market saturation, and target
+  high-potential areas for market expansion.
+</p>
+<img
+  src="{{ url_for('static', filename='plots/barchart_for_market_freq.png') }}"
+  alt="Bar Chart for Market Frequency"
+/>
+
+<h2>Scatter Plot for Minimum Vs Maximum Price</h2>
+<p>
+  Usefulness: Shows the relationship between minimum and maximum prices.<br />
+  Efficient Use: Identify patterns, correlations, or anomalies in price
+  variations to optimize pricing strategies.
+</p>
+<img
+  src="{{ url_for('static', filename='plots/scatterplot_for_min_vs_max_price.png') }}"
+  alt="Scatter Plot for Minimum Vs Maximum Price"
+/>
+
+<h2>Average Price Distribution</h2>
+<p>
+  Usefulness: Presents the distribution of average prices (modal price).<br />
+  Efficient Use: Understand the overall market conditions, identify pricing
+  trends, and make informed decisions.
+</p>
+<img
+  src="{{ url_for('static', filename='plots/avg_price.png') }}"
+  alt="Average Price Distribution"
+/>
+
+{% endblock %}

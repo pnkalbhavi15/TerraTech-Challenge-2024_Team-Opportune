@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cluster Maps</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      nav {
+        background-color: #333;
+        overflow: hidden;
+      }
+      nav a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+      }
+      nav a:hover {
+        background-color: #555;
+      }
+      .content {
+        padding: 20px;
+      }
+      form {
+        margin-top: 20px;
+      }
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+      input[type="number"] {
+        width: 100%;
+        padding: 8px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      button[type="submit"] {
+        background-color: #4caf50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      button[type="submit"]:hover {
+        background-color: #45a049;
+      }
+      .go-back-button {
+        margin-top: 20px;
+        text-align: center;
+      }
+      .go-back-button a {
+        text-decoration: none;
+        background-color: #333;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 4px;
+      }
+      .go-back-button a:hover {
+        background-color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="/edu_analysis">Education</a>
+      <a href="/health">Healthcare</a>
+      <a href="#employment">Employment</a>
+      <a href="/agri_analysis">Agriculture</a>
+      <a href="/kernel">View More Analysis</a>
+    </nav>
+
+    <h1>Spatial Distribution of Data Points</h1>
+    <img src="{{ plot_filename }}" alt="Spatial Distribution Plot" />
+      <div class="go-back-button">
+        <a href="/analysis1">Go Back</a>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,641 @@
+District,State,Literacy
+ Thane, Maharashtra,84.53
+ North Twenty Four Parganas, West Bengal,84.06
+ Bangalore, Karnataka,87.67
+ Pune, Maharashtra,86.15
+ Mumbai Suburban, Maharashtra,89.91
+ South Twenty Four Parganas, West Bengal,77.51
+ Barddhaman, West Bengal,76.21
+ Ahmadabad, Gujarat,85.31
+ Murshidabad, West Bengal,66.59
+ Jaipur, Rajasthan,75.51
+ Nashik, Maharashtra,82.31
+ Surat, Gujarat,85.53
+ Allahabad, Uttar Pradesh,72.32
+ Paschim Medinipur, West Bengal,78
+ Patna, Bihar,70.68
+ Hugli, West Bengal,81.8
+ Rangareddy, Andhra Pradesh,75.87
+ Nadia, West Bengal,74.97
+ East Godavari, Andhra Pradesh,70.99
+ Purbi Champaran, Bihar,55.79
+ Purba Medinipur, West Bengal,87.02
+ Guntur, Andhra Pradesh,67.4
+ Haora, West Bengal,83.31
+ Muzaffarpur, Bihar,63.43
+ Belgaum, Karnataka,73.48
+ Moradabad, Uttar Pradesh,56.77
+ Ghaziabad, Uttar Pradesh,78.07
+ Nagpur, Maharashtra,88.39
+ Chennai, Tamil Nadu,90.18
+ Azamgarh, Uttar Pradesh,70.93
+ Lucknow, Uttar Pradesh,77.29
+ Kanpur Nagar, Uttar Pradesh,79.65
+ Ahmadnagar, Maharashtra,79.05
+ Krishna, Andhra Pradesh,73.74
+ Kolkata, West Bengal,86.31
+ Jaunpur, Uttar Pradesh,71.55
+ Madhubani, Bihar,58.62
+ Sitapur, Uttar Pradesh,61.12
+ Bareilly, Uttar Pradesh,58.49
+ Gorakhpur, Uttar Pradesh,70.83
+ Agra, Uttar Pradesh,71.58
+ Gaya, Bihar,63.67
+ Solapur, Maharashtra,77.02
+ Visakhapatnam, Andhra Pradesh,66.91
+ Samastipur, Bihar,61.86
+ Jalgaon, Maharashtra,78.2
+ Chittoor, Andhra Pradesh,71.53
+ Vadodara, Gujarat,78.92
+ Muzaffarnagar, Uttar Pradesh,69.12
+ Malappuram, Kerala,93.57
+ Hardoi, Uttar Pradesh,64.57
+ Anantapur, Andhra Pradesh,63.57
+ Raipur, Chhattisgarh,75.56
+ Kurnool, Andhra Pradesh,59.97
+ Mahbubnagar, Andhra Pradesh,55.04
+ Kheri, Uttar Pradesh,60.56
+ Kancheepuram, Tamil Nadu,84.49
+ Maldah, West Bengal,61.73
+ Saran, Bihar,65.96
+ Hyderabad, Andhra Pradesh,83.25
+ Darbhanga, Bihar,56.56
+ West Godavari, Andhra Pradesh,74.63
+ Vellore, Tamil Nadu,79.17
+ Pashchim Champaran, Bihar,55.7
+ Kolhapur, Maharashtra,81.51
+ Jalpaiguri, West Bengal,73.25
+ Rajkot, Gujarat,80.96
+ Sultanpur, Uttar Pradesh,69.27
+ Karimnagar, Andhra Pradesh,64.15
+ Thiruvallur, Tamil Nadu,84.03
+ Aurangabad, Maharashtra,79.02
+ Jodhpur, Rajasthan,65.94
+ Bijnor, Uttar Pradesh,68.48
+ Budaun, Uttar Pradesh,51.29
+ Varanasi, Uttar Pradesh,75.6
+ Alwar, Rajasthan,70.72
+ Aligarh, Uttar Pradesh,67.52
+ North West Delhi, Delhi,84.45
+ Ghazipur, Uttar Pradesh,71.78
+ Bankura, West Bengal,70.26
+ Kushinagar, Uttar Pradesh,65.25
+ Ganjam, Orissa,71.09
+ Warangal, Andhra Pradesh,65.11
+ Birbhum, West Bengal,70.68
+ Bulandshahar, Uttar Pradesh,68.88
+ Ludhiana, Punjab,82.2
+ Vaishali, Bihar,66.6
+ Nalgonda, Andhra Pradesh,64.2
+ Bahraich, Uttar Pradesh,49.36
+ Salem, Tamil Nadu,72.86
+ Saharanpur, Uttar Pradesh,70.49
+ Viluppuram, Tamil Nadu,71.88
+ Coimbatore, Tamil Nadu,83.98
+ Meerut, Uttar Pradesh,72.84
+ Gonda, Uttar Pradesh,58.71
+ Sitamarhi, Bihar,52.05
+ Rae Bareli, Uttar Pradesh,67.25
+ Prakasam, Andhra Pradesh,63.08
+ Nanded, Maharashtra,75.45
+ Durg, Chhattisgarh,79.06
+ Siwan, Bihar,69.45
+ Nagaur, Rajasthan,62.8
+ Thiruvananthapuram, Kerala,93.02
+ Ernakulam, Kerala,95.89
+ Indore, Madhya Pradesh,80.87
+ Purnia, Bihar,51.08
+ Barabanki, Uttar Pradesh,61.75
+ Ballia, Uttar Pradesh,70.94
+ Pratapgarh, Uttar Pradesh,70.09
+ Thrissur, Kerala,95.08
+ Banaskantha, Gujarat,65.32
+ Unnao, Uttar Pradesh,66.37
+ Deoria, Uttar Pradesh,71.13
+ Kozhikode, Kerala,95.08
+ Mumbai City, Maharashtra,89.21
+ Tirunelveli, Tamil Nadu,82.5
+ Katihar, Bihar,52.24
+ Udaipur, Rajasthan,61.82
+ Madurai, Tamil Nadu,83.45
+ Bhagalpur, Bihar,63.14
+ Medak, Andhra Pradesh,61.42
+ Uttar Dinajpur, West Bengal,59.07
+ Shahjahanpur, Uttar Pradesh,59.54
+ Satara, Maharashtra,82.87
+ Mysore, Karnataka,72.79
+ Begusarai, Bihar,63.87
+ Sri Potti Sriramulu Nellore, Andhra Pradesh,68.9
+ Rohtas, Bihar,73.37
+ Puruliya, West Bengal,64.48
+ Ranchi, Jharkhand,76.06
+ Amravati, Maharashtra,87.38
+ YSR, Andhra Pradesh,67.3
+ Bhavnagar, Gujarat,75.52
+ Nalanda, Bihar,64.43
+ Nagaon, Assam,72.37
+ Sangli, Maharashtra,81.48
+ Koch Bihar, West Bengal,74.78
+ Araria, Bihar,53.53
+ Palakkad, Kerala,89.31
+ Khammam, Andhra Pradesh,64.81
+ Yavatmal, Maharashtra,82.82
+ Junagadh, Gujarat,75.8
+ Adilabad, Andhra Pradesh,61.01
+ South Delhi, Delhi,86.57
+ Bhojpur, Bihar,70.47
+ Tiruchirappalli, Tamil Nadu,83.23
+ Srikakulam, Andhra Pradesh,61.74
+ Maharajganj, Uttar Pradesh,62.76
+ Dhanbad, Jharkhand,74.52
+ Tumkur, Karnataka,75.14
+ Sikar, Rajasthan,71.91
+ Bilaspur, Chhattisgarh,70.78
+ Kollam, Kerala,94.09
+ Raigarh, Maharashtra,83.14
+ Fatehpur, Uttar Pradesh,67.43
+ Cuttack, Orissa,85.5
+ Cuddalore, Tamil Nadu,78.04
+ Barmer, Rajasthan,56.53
+ Buldana, Maharashtra,83.4
+ Bid, Maharashtra,76.99
+ Ajmer, Rajasthan,69.33
+ Gulbarga, Karnataka,64.85
+ Gopalganj, Bihar,65.47
+ Siddharth Nagar, Uttar Pradesh,59.25
+ Nizamabad, Andhra Pradesh,61.25
+ Bharatpur, Rajasthan,70.11
+ Mathura, Uttar Pradesh,70.36
+ West Delhi, Delhi,86.98
+ Aurangabad, Bihar,70.32
+ Kannur, Kerala,95.1
+ Mayurbhanj, Orissa,63.17
+ Firozabad, Uttar Pradesh,71.92
+ Mirzapur, Uttar Pradesh,68.48
+ Amritsar, Punjab,76.27
+ Tiruppur, Tamil Nadu,78.68
+ Faizabad, Uttar Pradesh,68.73
+ Tiruvannamalai, Tamil Nadu,74.21
+ Basti, Uttar Pradesh,67.22
+ Jabalpur, Madhya Pradesh,81.07
+ Latur, Maharashtra,77.26
+ Bellary, Karnataka,67.43
+ Giridih, Jharkhand,63.14
+ Sabarkantha, Gujarat,75.79
+ Bhilwara, Rajasthan,61.37
+ Thanjavur, Tamil Nadu,82.64
+ Ambedkar Nagar, Uttar Pradesh,72.23
+ PanchMahal, Gujarat,70.99
+ Sagar, Madhya Pradesh,76.46
+ Bhopal, Madhya Pradesh,80.37
+ Rewa, Madhya Pradesh,71.62
+ Bikaner, Rajasthan,65.13
+ Surguja, Chhattisgarh,60.01
+ Vizianagaram, Andhra Pradesh,58.89
+ Rampur, Uttar Pradesh,53.34
+ Baleshwar, Orissa,79.79
+ Kheda, Gujarat,82.65
+ Gurdaspur, Punjab,79.95
+ Purbi Singhbhum, Jharkhand,75.49
+ South West Delhi, Delhi,88.28
+ Erode, Tamil Nadu,72.58
+ Khordha, Orissa,86.88
+ North East Delhi, Delhi,83.09
+ Supaul, Bihar,57.67
+ Satna, Madhya Pradesh,72.26
+ Nawada, Bihar,59.76
+ Mau, Uttar Pradesh,73.09
+ Chandrapur, Maharashtra,80.01
+ Jalandhar, Punjab,82.48
+ Dhar, Madhya Pradesh,59
+ Bijapur, Karnataka,67.15
+ Jamnagar, Gujarat,73.65
+ Dindigul, Tamil Nadu,76.26
+ Balrampur, Uttar Pradesh,49.51
+ Jhunjhunun, Rajasthan,74.13
+ Alappuzha, Kerala,95.72
+ Dohad, Gujarat,58.82
+ Sundargarh, Orissa,73.34
+ Anand, Gujarat,84.37
+ Kachchh, Gujarat,70.59
+ Chhindwara, Madhya Pradesh,71.16
+ Dakshina Kannada, Karnataka,88.57
+ Bokaro, Jharkhand,72.01
+ Dhule, Maharashtra,72.8
+ Churu, Rajasthan,66.75
+ Pali, Rajasthan,62.39
+ Mahesana, Gujarat,83.61
+ Banka, Bihar,58.17
+ Gwalior, Madhya Pradesh,76.65
+ Pilibhit, Uttar Pradesh,61.47
+ Firozpur, Punjab,68.92
+ Madhepura, Bihar,52.25
+ Jhansi, Uttar Pradesh,75.05
+ Ujjain, Madhya Pradesh,72.34
+ Kottayam, Kerala,97.21
+ Ganganagar, Rajasthan,69.64
+ Morena, Madhya Pradesh,71.03
+ Jalna, Maharashtra,71.52
+ Chandauli, Uttar Pradesh,71.48
+ Kota, Rajasthan,76.56
+ Dhubri, Assam,58.34
+ Davanagere, Karnataka,75.74
+ Virudhunagar, Tamil Nadu,80.15
+ Palamu, Jharkhand,63.63
+ Raichur, Karnataka,59.56
+ Sonitpur, Assam,67.34
+ Saharsa, Bihar,53.2
+ Patiala, Punjab,75.28
+ Haridwar, Uttarakhand,73.43
+ Bagalkot, Karnataka,68.82
+ Farrukhabad, Uttar Pradesh,69.04
+ Krishnagiri, Tamil Nadu,71.46
+ West Nimar, Madhya Pradesh,62.7
+ Kanniyakumari, Tamil Nadu,91.75
+ Mainpuri, Uttar Pradesh,75.99
+ Sonbhadra, Uttar Pradesh,64.03
+ Dharwad, Karnataka,80
+ Darjiling, West Bengal,79.56
+ Jyotiba Phule Nagar, Uttar Pradesh,63.84
+ Parbhani, Maharashtra,73.34
+ Jalor, Rajasthan,54.86
+ Jajapur, Orissa,80.13
+ Akola, Maharashtra,88.05
+ Faridabad, Haryana,81.7
+ Mandya, Karnataka,70.4
+ Kendujhar, Orissa,68.24
+ Banda, Uttar Pradesh,66.67
+ Banswara, Rajasthan,56.33
+ Ramabai Nagar, Uttar Pradesh,75.78
+ Hassan, Karnataka,76.07
+ Hanumangarh, Rajasthan,67.13
+ Etah, Uttar Pradesh,70.81
+ Chhattarpur, Madhya Pradesh,63.74
+ Jamui, Bihar,59.79
+ Surendranagar, Gujarat,72.13
+ Shimoga, Karnataka,80.45
+ Thoothukkudi, Tamil Nadu,86.16
+ Hisar, Haryana,72.89
+ Cachar, Assam,79.34
+ Hazaribagh, Jharkhand,69.75
+ Namakkal, Tamil Nadu,74.63
+ Shivpuri, Madhya Pradesh,62.55
+ West Tripura, Tripura,88.69
+ Sant Kabir Nagar, Uttar Pradesh,66.72
+ East Delhi, Delhi,89.31
+ Buxar, Bihar,70.14
+ Valsad, Gujarat,78.55
+ Bidar, Karnataka,70.51
+ Bhind, Madhya Pradesh,75.26
+ Balaghat, Madhya Pradesh,77.09
+ Puri, Orissa,84.67
+ Dehradun, Uttarakhand,84.25
+ Barpeta, Assam,63.81
+ Kishanganj, Bihar,55.46
+ Jalaun, Uttar Pradesh,73.75
+ Dakshin Dinajpur, West Bengal,72.82
+ Khagaria, Bihar,57.92
+ Chitradurga, Karnataka,73.71
+ Osmanabad, Maharashtra,78.44
+ Kannauj, Uttar Pradesh,72.7
+ Sangrur, Punjab,67.99
+ Balangir, Orissa,64.72
+ Udham Singh Nagar, Uttarakhand,73.1
+ Nandurbar, Maharashtra,64.38
+ Gautam Buddha Nagar, Uttar Pradesh,80.12
+ Bhiwani, Haryana,75.21
+ Dausa, Rajasthan,68.16
+ Kaimur, Bihar,69.34
+ Janjgir Champa, Chhattisgarh,73.07
+ Pudukkottai, Tamil Nadu,77.19
+ Nagapattinam, Tamil Nadu,83.59
+ Ratnagiri, Maharashtra,82.18
+ Kaushambi, Uttar Pradesh,61.28
+ Haveri, Karnataka,77.4
+ Hoshiarpur, Punjab,84.59
+ Etawah, Uttar Pradesh,78.41
+ Sant Ravidas Nagar, Uttar Pradesh,68.97
+ Kalahandi, Orissa,59.22
+ Betul, Madhya Pradesh,68.9
+ Mahamaya Nagar, Uttar Pradesh,71.59
+ Dewas, Madhya Pradesh,69.35
+ Bharuch, Gujarat,81.51
+ Rajgarh, Madhya Pradesh,61.21
+ Chittaurgarh, Rajasthan,61.71
+ Rajnandgaon, Chhattisgarh,75.96
+ Kolar, Karnataka,74.39
+ Jammu, Jammu and Kashmir,83.45
+ Kamrup, Assam,75.55
+ Gurgaon, Haryana,84.7
+ Amreli, Gujarat,74.25
+ Shajapur, Madhya Pradesh,69.09
+ Kangra, Himachal Pradesh,85.67
+ Dharmapuri, Tamil Nadu,68.54
+ Bhadrak, Orissa,82.78
+ Karnal, Haryana,74.73
+ Pashchimi Singhbhum, Jharkhand,58.63
+ Raigarh, Chhattisgarh,73.26
+ Deoghar, Jharkhand,64.85
+ Bargarh, Orissa,74.62
+ Vidisha, Madhya Pradesh,70.53
+ Karauli, Rajasthan,66.22
+ Ratlam, Madhya Pradesh,66.78
+ Sonipat, Haryana,79.12
+ Tikamgarh, Madhya Pradesh,61.43
+ Kendrapara, Orissa,85.15
+ Uttara Kannada, Karnataka,84.06
+ Kanshiram Nagar, Uttar Pradesh,61.02
+ Tonk, Rajasthan,61.58
+ Bastar, Chhattisgarh,54.4
+ Jhalawar, Rajasthan,61.5
+ Gandhinagar, Gujarat,84.16
+ Koppal, Karnataka,68.09
+ Dungarpur, Rajasthan,59.46
+ Bathinda, Punjab,68.28
+ Barwani, Madhya Pradesh,49.08
+ Koraput, Orissa,49.21
+ Auraiya, Uttar Pradesh,78.95
+ Seoni, Madhya Pradesh,72.12
+ Munger, Bihar,70.46
+ Ramanathapuram, Tamil Nadu,80.72
+ Patan, Gujarat,72.3
+ Mandsaur, Madhya Pradesh,71.78
+ Sivaganga, Tamil Nadu,79.85
+ Sawai Madhopur, Rajasthan,65.39
+ Jind, Haryana,71.44
+ Raisen, Madhya Pradesh,72.98
+ Navsari, Gujarat,83.88
+ Tinsukia, Assam,69.66
+ Dibrugarh, Assam,76.05
+ Garhwa, Jharkhand,60.33
+ Gondiya, Maharashtra,84.95
+ Dumka, Jharkhand,61.02
+ Godda, Jharkhand,56.4
+ Sehore, Madhya Pradesh,70.06
+ East Nimar, Madhya Pradesh,66.39
+ Kasaragod, Kerala,90.09
+ Baghpat, Uttar Pradesh,72.01
+ Wardha, Maharashtra,86.99
+ Sirsa, Haryana,68.82
+ Katni, Madhya Pradesh,71.98
+ Anugul, Orissa,77.53
+ Thiruvarur, Tamil Nadu,82.86
+ Damoh, Madhya Pradesh,69.73
+ Chikkaballapura, Karnataka,69.76
+ Kamrup Metropolitan, Assam,88.71
+ Theni, Tamil Nadu,77.26
+ Guna, Madhya Pradesh,63.23
+ Hoshangabad, Madhya Pradesh,75.29
+ Srinagar, Jammu and Kashmir,69.41
+ Karimganj, Assam,78.22
+ Baran, Rajasthan,66.66
+ Lalitpur, Uttar Pradesh,63.52
+ Nabarangapur, Orissa,46.43
+ Yamunanagar, Haryana,77.99
+ Korba, Chhattisgarh,72.37
+ Dhaulpur, Rajasthan,69.08
+ Panipat, Haryana,75.94
+ Bhandara, Maharashtra,83.76
+ Pathanamthitta, Kerala,96.55
+ Washim, Maharashtra,83.25
+ Dhenkanal, Orissa,78.76
+ Singrauli, Madhya Pradesh,60.41
+ Udupi, Karnataka,86.24
+ Hingoli, Maharashtra,78.17
+ Yadgir, Karnataka,51.83
+ Rajsamand, Rajasthan,63.14
+ Sivasagar, Assam,80.41
+ Sahibganj, Jharkhand,52.04
+ Chikmagalur, Karnataka,79.25
+ Jagatsinghapur, Orissa,86.59
+ Ambala, Haryana,81.75
+ Sidhi, Madhya Pradesh,64.43
+ Jehanabad, Bihar,66.8
+ Tarn Taran, Punjab,67.81
+ Shrawasti, Uttar Pradesh,46.74
+ Bundi, Rajasthan,61.52
+ Idukki, Kerala,91.99
+ Hamirpur, Uttar Pradesh,68.77
+ Jorhat, Assam,82.15
+ Narsimhapur, Madhya Pradesh,75.69
+ Mewat, Haryana,54.08
+ Ramanagara, Karnataka,69.22
+ Anantnag, Jammu and Kashmir,62.69
+ Kaithal, Haryana,69.15
+ Gadchiroli, Maharashtra,74.36
+ Golaghat, Assam,77.43
+ Shahdol, Madhya Pradesh,66.67
+ Saraikela Kharsawan, Jharkhand,67.7
+ Gadag, Karnataka,75.12
+ Karur, Tamil Nadu,75.6
+ Rohtak, Haryana,80.22
+ Chandigarh, Chandigarh,86.05
+ Mandla, Madhya Pradesh,66.87
+ Chatra, Jharkhand,60.18
+ Palwal, Haryana,69.32
+ Lakhimpur, Assam,77.2
+ Sambalpur, Orissa,76.22
+ Sirohi, Rajasthan,55.25
+ Mahasamund, Chhattisgarh,71.02
+ Gumla, Jharkhand,65.73
+ Jhabua, Madhya Pradesh,43.3
+ Chamarajanagar, Karnataka,61.43
+ Panna, Madhya Pradesh,64.79
+ Goalpara, Assam,67.37
+ Baramula, Jammu and Kashmir,64.63
+ Lakhisarai, Bihar,62.42
+ Mandi, Himachal Pradesh,81.53
+ Moga, Punjab,70.68
+ Mohali, Punjab,83.8
+ Chitrakoot, Uttar Pradesh,65.05
+ Bangalore Rural, Karnataka,77.93
+ Rayagada, Orissa,49.76
+ Kurukshetra, Haryana,76.31
+ Nayagarh, Orissa,80.42
+ Jhajjar, Haryana,80.65
+ Morigaon, Assam,68.03
+ Karbi Anglong, Assam,69.25
+ Nainital, Uttarakhand,83.88
+ Puducherry, Puducherry,85.44
+ Baksa, Assam,69.25
+ Ramgarh, Jharkhand,73.17
+ Fatehabad, Haryana,67.92
+ Darrang, Assam,63.08
+ Mahendragarh, Haryana,77.72
+ Muktsar, Punjab,65.81
+ Pakur, Jharkhand,48.82
+ Rewari, Haryana,80.99
+ North Delhi, Delhi,86.85
+ Kokrajhar, Assam,65.22
+ South Tripura, Tripura,84.66
+ Mahoba, Uttar Pradesh,65.27
+ Kupwara, Jammu and Kashmir,64.51
+ Pratapgarh, Rajasthan,55.97
+ Jashpur, Chhattisgarh,67.92
+ Sindhudurg, Maharashtra,85.56
+ Ashoknagar, Madhya Pradesh,66.42
+ Udalguri, Assam,65.41
+ Neemuch, Madhya Pradesh,70.8
+ East Khasi Hills, Meghalaya,84.15
+ Kabirdham, Chhattisgarh,60.85
+ North Goa, Goa,89.57
+ Wayanad, Kerala,89.03
+ Kapurthala, Punjab,79.07
+ Shimla, Himachal Pradesh,83.64
+ Tapi, Gujarat,68.26
+ Dhamtari, Chhattisgarh,78.36
+ Jamtara, Jharkhand,64.59
+ Datia, Madhya Pradesh,72.63
+ Nalbari, Assam,78.63
+ Mansa, Punjab,61.83
+ Burhanpur, Madhya Pradesh,64.36
+ Ariyalur, Tamil Nadu,71.34
+ Badgam, Jammu and Kashmir,56.08
+ Anuppur, Madhya Pradesh,67.88
+ Kanker, Chhattisgarh,70.29
+ Bongaigaon, Assam,69.74
+ The Nilgiris, Tamil Nadu,85.2
+ Kandhamal, Orissa,64.13
+ Alirajpur, Madhya Pradesh,36.1
+ Latehar, Jharkhand,59.51
+ Kodarma, Jharkhand,66.84
+ Dindori, Madhya Pradesh,63.9
+ Arwal, Bihar,67.43
+ North Tripura, Tripura,87.5
+ Sheopur, Madhya Pradesh,57.43
+ Pauri Garhwal, Uttarakhand,82.02
+ Dhemaji, Assam,72.7
+ Rupnagar, Punjab,82.19
+ Jaisalmer, Rajasthan,57.22
+ Hailakandi, Assam,74.33
+ Korea, Chhattisgarh,70.64
+ Sheohar, Bihar,53.78
+ Umaria, Madhya Pradesh,65.89
+ West Garo Hills, Meghalaya,67.58
+ Rajouri, Jammu and Kashmir,68.17
+ South Goa, Goa,87.59
+ Sheikhpura, Bihar,63.86
+ Almora, Uttarakhand,80.47
+ Tehri Garhwal, Uttarakhand,76.36
+ Faridkot, Punjab,69.55
+ Kathua, Jammu and Kashmir,73.09
+ Malkangiri, Orissa,48.54
+ Shahid Bhagat Singh Nagar, Punjab,79.78
+ Nuapada, Orissa,57.35
+ Subarnapur, Orissa,74.42
+ Fatehgarh Sahib, Punjab,79.35
+ Simdega, Jharkhand,67.99
+ Barnala, Punjab,67.82
+ Narmada, Gujarat,72.31
+ Porbandar, Gujarat,75.78
+ Central Delhi, Delhi,85.14
+ Solan, Himachal Pradesh,83.68
+ Jharsuguda, Orissa,78.86
+ Gajapati, Orissa,53.49
+ Harda, Madhya Pradesh,72.5
+ Perambalur, Tamil Nadu,74.32
+ Panchkula, Haryana,81.88
+ Pulwama, Jammu and Kashmir,63.48
+ Udhampur, Jammu and Kashmir,68.49
+ Kodagu, Karnataka,82.61
+ Dantewada, Chhattisgarh,42.12
+ Khunti, Jharkhand,63.86
+ Sirmaur, Himachal Pradesh,78.8
+ Una, Himachal Pradesh,86.53
+ Chamba, Himachal Pradesh,72.17
+ Imphal West, Manipur,86.08
+ Pithoragarh, Uttarakhand,82.25
+ Chirang, Assam,63.55
+ Senapati, Manipur,63.6
+ Punch, Jammu and Kashmir,66.74
+ Lohardaga, Jharkhand,67.61
+ Imphal East, Manipur,81.95
+ Hamirpur, Himachal Pradesh,88.15
+ Baudh, Orissa,71.61
+ Kullu, Himachal Pradesh,79.4
+ Kulgam, Jammu and Kashmir,59.23
+ Thoubal, Manipur,74.47
+ Doda, Jammu and Kashmir,64.68
+ Aizawl, Mizoram,97.89
+ Jaintia Hills, Meghalaya,61.64
+ Bandipora, Jammu and Kashmir,56.28
+ Chamoli, Uttarakhand,82.65
+ West Khasi Hills, Meghalaya,77.87
+ Bilaspur, Himachal Pradesh,84.59
+ Dimapur, Nagaland,84.79
+ Dhalai, Tripura,85.72
+ Dadra and Nagar Haveli, Dadra and Nagar Haveli,76.24
+ Uttarkashi, Uttarakhand,75.81
+ Samba, Jammu and Kashmir,81.41
+ East Garo Hills, Meghalaya,73.95
+ Reasi, Jammu and Kashmir,58.15
+ Debagarh, Orissa,72.57
+ Ganderbal, Jammu and Kashmir,58.04
+ Ramban, Jammu and Kashmir,54.27
+ East Sikkim, Sikkim,83.85
+ Churachandpur, Manipur,82.78
+ Kohima, Nagaland,85.23
+ Shupiyan, Jammu and Kashmir,60.76
+ Bageshwar, Uttarakhand,80.01
+ Champawat, Uttarakhand,79.83
+ Ri Bhoi, Meghalaya,75.67
+ Bijapur, Chhattisgarh,40.86
+ Mon, Nagaland,56.99
+ Rudraprayag, Uttarakhand,81.3
+ South Andaman, Andaman And Nicobar Islands,89.13
+ Bishnupur, Manipur,75.85
+ Kishtwar, Jammu and Kashmir,56.2
+ The Dangs, Gujarat,75.16
+ Dima Hasao, Assam,77.54
+ Karaikal, Puducherry,87.05
+ Tuensang, Nagaland,73.08
+ Mokokchung, Nagaland,91.62
+ Daman, Daman and Diu,88.07
+ Ukhrul, Manipur,81.35
+ Papumpare, Arunachal Pradesh,79.95
+ Wokha, Nagaland,87.69
+ Phek, Nagaland,78.05
+ Lunglei, Mizoram,88.86
+ Changlang, Arunachal Pradesh,59.8
+ South Sikkim, Sikkim,81.42
+ Lohit, Arunachal Pradesh,68.18
+ Chandel, Manipur,71.11
+ South Garo Hills, Meghalaya,71.72
+ New Delhi, Delhi,88.34
+ Kargil, Jammu and Kashmir,71.34
+ Zunheboto, Nagaland,85.26
+ Tamenglong, Manipur,70.05
+ Narayanpur, Chhattisgarh,48.62
+ West Sikkim, Sikkim,77.39
+ Leh, Jammu and Kashmir,77.2
+ Champhai, Mizoram,95.91
+ Lawngtlai, Mizoram,65.88
+ West Siang, Arunachal Pradesh,66.46
+ Tirap, Arunachal Pradesh,52.19
+ North And Middle Andaman, Andaman And Nicobar Islands,83.91
+ East Siang, Arunachal Pradesh,72.54
+ Peren, Nagaland,77.95
+ Kurung Kumey, Arunachal Pradesh,48.75
+ Mamit, Mizoram,84.93
+ Kinnaur, Himachal Pradesh,80
+ Kolasib, Mizoram,93.5
+ West Kameng, Arunachal Pradesh,67.07
+ Upper Subansiri, Arunachal Pradesh,63.8
+ Lower Subansiri, Arunachal Pradesh,74.35
+ East Kameng, Arunachal Pradesh,60.02
+ Kiphire, Nagaland,69.54
+ Serchhip, Mizoram,97.91
+ Lakshadweep, Lakshadweep,91.85
+ Saiha, Mizoram,90.01
+ Yanam, Puducherry,79.47
+ Lower Dibang Valley, Arunachal Pradesh,69.13
+ Diu, Daman and Diu,83.46
+ Longleng, Nagaland,72.17
+ Tawang, Arunachal Pradesh,59
+ North Sikkim, Sikkim,78.01
+ Mahe, Puducherry,97.87
+ Nicobars, Andaman And Nicobar Islands,78.06
+ Upper Siang, Arunachal Pradesh,59.99
+ Lahul and Spiti, Himachal Pradesh,76.81
+ Anjaw, Arunachal Pradesh,56.46
+ Dibang Valley, Arunachal Pradesh,64.1
